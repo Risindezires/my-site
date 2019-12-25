@@ -1,0 +1,146 @@
+body{
+  margin: 0;
+  text-align:  center;  /* ye karne se body mei sab kuch center mei aa jayega chaahe vo images ho ya text ho*/
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1
+{
+  margin:0;
+font-family: 'Sacramento', cursive;
+font-size: 5.625rem;
+margin: 50px auto 0 auto;
+color:#66BFBF;
+}
+h2
+{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+color:#66BFBF;
+padding: 10px;
+}
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container
+{
+  /* height: 200px;
+  width:200px; */
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container
+{
+margin: 100px 0;
+}
+.bottom-container
+{
+background-color: #66BFBF;
+padding: 50px 0 20px;
+
+}
+
+.bottom-cloud
+{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.top-cloud
+{
+   position: absolute;
+  line-height: 2;
+   bottom: 300px;
+   left: 250px;
+
+}
+.anuj{
+ border-radius: 100%;
+
+ width: 25%;
+
+}
+.skillsimage{
+   border-radius: 100%;
+   width: 25%;
+   float:left;    /*isse image left mei float karegi text ke */
+   margin-right: 30px;
+}
+a{
+  color: #11999E;
+}
+#programmer{
+  font-weight: normal;
+}
+.skill-row
+{
+  width: 50%;         /* mai yahaan content-allign center isliye nahi kr skta tha ku ki uske liye width de hi.
+                      so isliye margin auto diya hai ,ye bhi content ko center mei laa dega */
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.chilliimg{
+  width: 25%;
+  float:right;    /*isse image right mei float karegi text ke */
+  margin-left: 30px;
+}
+.intro
+{
+  width: 30%;  /*30% of the parent*/
+  margin: auto;   /*text ko center mei laanne ke liye */
+}
+p{
+  line-height: 2;   /*line height means the distance between two lines of a text */
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.contact-message
+{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.myButton {
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+a{
+  color:#11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright
+{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
